@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 :root {
     --vermelho: #e50914;
     --preto: #141414;
@@ -11,7 +13,7 @@
 
 body {
     background: var(--preto);
-    font-family: 'Arial', Times, serif;
+    font-family: 'Roboto', sans-serif;
     color: #fff;
 }
 
@@ -23,16 +25,14 @@ header .container{
 }
 
 header .logo {
-    margin-left: 5px;
-    color: var(--vermelho);
-    font-family: 'Arial Black', Times;
-    font-size: 40px;
+    margin-top: 5px;
+    margin-left: 10px;
 }
 
 header nav a {
     text-decoration: none;
     color: #aaa;
-    margin-right: 10px;
+    margin-right: 30px;
 }
 
 header nav a:hover {
@@ -62,7 +62,7 @@ header nav a:hover {
 .filme-principal .titulo {
     margin-top: 20px;
     font-size: 40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .botao {
